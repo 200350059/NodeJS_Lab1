@@ -14,4 +14,5 @@ app.get('/contact', (req, res) => {
     res.send('You can call me anytime you want.');
 });
 
-app.listen(4000, () => console.log('Port 2000'));
+const port = process.env.PORT || 2000;
+app.listen(port, () => console.log(`It is port ${port}`));
