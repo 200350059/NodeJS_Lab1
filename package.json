@@ -16,14 +16,5 @@
   "bugs": {
     "url": "https://github.com/200350059/NodeJS_Lab1/issues"
   },
-  "homepage": "https://github.com/200350059/NodeJS_Lab1#readme",
-  "dependencies": {
-
-    "express":"*",
-    
-    "body-parser":"*",
-    
-    "bcrypt": "^0.8.5"
-    }
-  
+  "homepage": "https://github.com/200350059/NodeJS_Lab1#readme"
 }
