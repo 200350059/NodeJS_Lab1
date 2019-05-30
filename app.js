@@ -3,7 +3,24 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send(`Table Of Content \r\n /about - About myself \r\n /contact - That's how you can contact me.` );
+    res.send(`<h3>Table of Content</h3>
+    <table >
+    <tr>
+      <td>/</td>
+      <td> - </td>
+      <td>Index</td> 
+    </tr>
+    <tr>
+      <td>/about</td>
+      <td> - </td>
+      <td>Information about me</td> 
+    </tr>
+    <tr>
+      <td>/contact</td>
+      <td> - </td>
+      <td>That's how you can contact me</td>
+    </tr>
+  </table>` );
 });
 
 app.get('/about', (req, res) => {
